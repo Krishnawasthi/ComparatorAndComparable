@@ -4,6 +4,9 @@
 # Comparable vs Comparator (Java)
 # 🔄 Comparable vs Comparator in Java
 
+<img width="1303" height="627" alt="image" src="https://github.com/user-attachments/assets/83964c5c-29a3-4b16-9a1b-ef474ec83a35" />
+
+
 ## ❓ What are Comparable and Comparator?
 
 Both are Java interfaces used to **compare and sort objects**.
