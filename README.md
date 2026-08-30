@@ -2,6 +2,62 @@
 
 ## Comparator is used for external sorting.
 # Comparable vs Comparator (Java)
+# 🔄 Comparable vs Comparator in Java
+
+## ❓ What are Comparable and Comparator?
+
+Both are Java interfaces used to **compare and sort objects**.
+
+### 1️⃣ Comparable
+
+`Comparable` is present in the `java.lang` package.
+
+It is used to define the **natural/default ordering** of a class.
+
+It provides:
+
+```java
+compareTo()
+```
+
+The class itself implements `Comparable`.
+
+> 🧠 **Comparable = Object compares itself**
+
+---
+
+### 2️⃣ Comparator
+
+`Comparator` is present in the `java.util` package.
+
+It is used to define **custom sorting logic**.
+
+It provides:
+
+```java
+compare()
+```
+
+The comparison logic is generally written separately from the class.
+
+> 🧠 **Comparator = Compare two objects externally**
+
+---
+
+### ⚡ Key Difference
+
+| Comparable           | Comparator                  |
+| -------------------- | --------------------------- |
+| Natural ordering     | Custom ordering             |
+| `compareTo()`        | `compare()`                 |
+| `java.lang`          | `java.util`                 |
+| Usually one ordering | Multiple orderings possible |
+
+### ⭐ Remember
+
+**Comparable → Natural Sorting**
+**Comparator → Custom Sorting**
+
 
 A quick reference for the two core interfaces Java provides for defining object ordering.
 
