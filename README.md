@@ -29,8 +29,9 @@ The class itself implements `Comparable`.
 
 ---
 
-### 2️⃣ Comparator
+## 2️⃣ Comparator
 
+### where  there are multiple objects and jar files were there , them we used comparator.
 `Comparator` is present in the `java.util` package.
 
 It is used to define **custom sorting logic**.
