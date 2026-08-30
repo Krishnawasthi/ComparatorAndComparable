@@ -22,11 +22,9 @@ class Product implements Comparable <Product>{
 		return result;
 	}
 	
-	
-	
 }
 
-public class Example1 {
+public class Ecom {
 
 	public static void main(String[] args) {
 		
