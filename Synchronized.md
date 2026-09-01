@@ -17,10 +17,12 @@
 ## you can used HashTable to solve this problem : where all the methods are by default synchronized.
 <img width="1017" height="297" alt="image" src="https://github.com/user-attachments/assets/e5d1986f-0e7e-4290-b00d-cd5bd8bfe9d9" />
 <img width="500" height="38" alt="image" src="https://github.com/user-attachments/assets/7854a6cc-66b8-4399-9b53-4b85fee7393a" />
+
 ## now this will be the single threaded , means if one thread is performing something are working on, no other thread will be able to read and modifying the data.
 ## this is solving the data problem or the race problem.
 
 <img width="1040" height="137" alt="image" src="https://github.com/user-attachments/assets/5ab51a58-2dbc-410e-b9be-8bbf82e1974a" />
+
                                                                # Major problem
 ## But it also has some problem: It solves the problem of thread safety but it is slow, it locks the object completely means other thread will stop working and       user will face the major problem.
 ## But here is the twist java introduced to solve ConcurrentHashMap to solve this problem where map's object will not be completely lock.
