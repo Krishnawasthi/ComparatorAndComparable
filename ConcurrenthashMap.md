@@ -8,3 +8,4 @@
 ## it will lock only those buckets which are under modification remaining buckets can be read at the same time, this is called segment locking. 
 ## this is how concurrent hashmap works on java 7 and before.
 ## this has been converted later from segment besed learning to CAS (compare and swap).
+## cuz it is also slow you are locking a perticular segement while modifing.
