@@ -11,3 +11,4 @@
 ## in that we doesn't lock the segment we compare and swap.
 ## it is not locked so chances to check frequently that it is modified or not. first it will check the current value that it is updated or not if it is not then it will remain same and if it is updated it will be swap with the current value.
    ## swap(current value = updated value).
+<img width="947" height="365" alt="image" src="https://github.com/user-attachments/assets/867d3c60-f4ad-4d3e-82c5-7f168e3a61b2" />
