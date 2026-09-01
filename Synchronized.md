@@ -21,6 +21,6 @@
 ## this is solving the data problem or the race problem.
 
 <img width="1040" height="137" alt="image" src="https://github.com/user-attachments/assets/5ab51a58-2dbc-410e-b9be-8bbf82e1974a" />
-
+                                                               # Major problem
 ## But it also has some problem: It solves the problem of thread safety but it is slow, it locks the object completely means other thread will stop working and       user will face the major problem.
 ## But here is the twist java introduced to solve ConcurrentHashMap to solve this problem where map's object will not be completely lock.
