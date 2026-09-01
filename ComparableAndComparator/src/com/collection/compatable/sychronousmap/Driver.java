@@ -15,7 +15,7 @@ public class Driver {
 
 		// empId = Key
 		// Organization OBJECT == VALUE
-
+        
 		Map<String, Organization> empData = new HashMap<>();
 		empData.put(emp1.getEmpID(), emp1);
 		empData.put(emp2.getEmpID(), emp2);
@@ -24,22 +24,37 @@ public class Driver {
 		empData.put(emp5.getEmpID(), emp5);
 
 		
-		 // Retrieve employee using empId
-	Organization org  = empData.get("org635");
-	
-			//System.out.println(org);
-			
-			
-	  //getting details of the employee on behalf on empID
-			
-	 	
-	 System.out.println("emp Name       : " + org.getEmpName() );
-	 System.out.println("emp ID         : " + org.getEmpID() );	
-	 System.out.println("emp dapartment : " + org.getDepartment() );	
-	 System.out.println("emp  salary    : " + org.getSalary() );	
+//		 // Retrieve employee using empId
+//	Organization org  = empData.get("org635");
+//	//getting details of the employee on behalf on empID(details on perticular empid)0
+//	 System.out.println("emp Name       : " + org.getEmpName() );
+//	 System.out.println("emp ID         : " + org.getEmpID() );	
+//	 System.out.println("emp dapartment : " + org.getDepartment() );	
+//	 System.out.println("emp  salary    : " + org.getSalary() );	
+//			
 	 
-	
+	 
+	Iterator<Map.Entry <String, Organization>> itr = empData.entrySet().iterator();
 		
+	while(itr.hasNext())
+	{
+		
+		  Map.Entry<String, Organization> org =  itr.next();
+		  
+		  //getting key from here 
+		  System.out.println("Employee ID    : " + org.getKey());
+		  
+		  
+		  //getting values  from here
+		  Organization emp = org.getValue();
+		  
+		  System.out.println("Emp Name       : " + emp.getEmpName());
+		  System.out.println("Emp Deaprtment : " + emp.getDepartment());
+		  System.out.println("Emp Salary     : " + emp.getSalary());
+		 
+		  System.out.println("-------------------------------------------------------------------------");
+		
+	}
 	}
 	
 	
