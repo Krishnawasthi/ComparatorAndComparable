@@ -17,3 +17,5 @@
 ## you can used HashTable to solve this problem : where all the methods are by default synchronized.
 <img width="1017" height="297" alt="image" src="https://github.com/user-attachments/assets/e5d1986f-0e7e-4290-b00d-cd5bd8bfe9d9" />
 <img width="500" height="38" alt="image" src="https://github.com/user-attachments/assets/7854a6cc-66b8-4399-9b53-4b85fee7393a" />
+
+## this is solving the data problem or the race problem.
