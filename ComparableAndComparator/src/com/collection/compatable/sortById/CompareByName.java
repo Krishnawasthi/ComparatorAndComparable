@@ -2,7 +2,7 @@ package com.collection.compatable.sortById;
 
 import java.util.Comparator;
 
-public class CompareByName implements Comparator<Customer> {
+public class CompareByName implements Comparator <Customer> {
 	
 
 		@Override
