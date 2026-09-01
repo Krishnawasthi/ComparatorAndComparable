@@ -7,4 +7,7 @@
 ## thread safety always comes with slowness.
 
 ## to solve this problem you can make your system Synchronized or use hashTable(by default Synchronized).
-## if you will make this Synchronized it will not allow reading while writting.
+## if you will make this Synchronized it will not allow reading while writting(completely lock the Obeject).
+<img width="1067" height="322" alt="image" src="https://github.com/user-attachments/assets/78169507-5221-4594-91ae-128057643fef" />
+
+## Under this example: here are 10K objects(Products), if you are making changes in one product it will lock the remaining 9999 products Means it will lock the object(prodPrice).
