@@ -14,3 +14,5 @@
 ## Under this example: here are 10K objects(Products), if you are making changes in one product it will lock the remaining 9999 products Means it will lock the object(prodPrice).
 ## this is because you have synchronized the object.
 ## It is good to solve this problem but it will be slow because thread safety always comes with slowness.
+## you can used HashTable to solve this problem : where all the methods are by default synchronized.
+<img width="1017" height="297" alt="image" src="https://github.com/user-attachments/assets/e5d1986f-0e7e-4290-b00d-cd5bd8bfe9d9" />
